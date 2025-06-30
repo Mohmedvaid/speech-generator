@@ -1,0 +1,27 @@
+{
+  "name": "speech-generator",
+  "version": "1.0.0",
+  "main": "generator.js",
+  "type": "module",
+  "scripts": {
+    "tts": "node src/tts.js",
+    "tts-gemini": "node src/tts-gemini.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohmedvaid/speech-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohmedvaid/speech-generator/issues"
+  },
+  "homepage": "https://github.com/Mohmedvaid/speech-generator#readme",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.7.0",
+    "dotenv": "^17.0.0",
+    "openai": "^5.8.2"
+  }
+}
